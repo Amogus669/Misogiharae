@@ -21,6 +21,7 @@
     {"id":{"name":"sBatAttack","path":"sprites/sBatAttack/sBatAttack.yy",},"order":29,},
     {"id":{"name":"sSlimeAttack","path":"sprites/sSlimeAttack/sSlimeAttack.yy",},"order":16,},
     {"id":{"name":"sQuestyIdle","path":"sprites/sQuestyIdle/sQuestyIdle.yy",},"order":11,},
+    {"id":{"name":"ArrayShuffle","path":"scripts/ArrayShuffle/ArrayShuffle.yy",},"order":5,},
     {"id":{"name":"GameData","path":"scripts/GameData/GameData.yy",},"order":3,},
     {"id":{"name":"sTurnIndicator","path":"sprites/sTurnIndicator/sTurnIndicator.yy",},"order":18,},
     {"id":{"name":"sSlash","path":"sprites/sSlash/sSlash.yy",},"order":13,},
