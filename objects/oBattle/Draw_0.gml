@@ -54,23 +54,26 @@ for (var i = 0; (i < array_length(enemyUnits)) && (_drawn < _drawLimit); i++)
 //Draw party info 
 for (var i = 0; i < array_length(partyUnits); i++)
 {
+	draw_set_halign(fa_left);
+	draw_set_color(c_white);
+	var _char = partyUnits[i];
+	if (_char.id == _unitWithCurrentTurn) draw_set_color(c_yellow);
+	if (_char.hp <= 0) draw_set_color(c_red);
+	draw_text(x+COLUMN_NAME,y+130+(i*12),_char.name);
+	draw_set_halign(fa_right);
+	
+	draw_set_color(c_white);
+	if (_char.hp < (_char.hpMax * 0.5)) draw_set_color(c_orange);
+	if (_char.hp <= 0) draw_set_color(c_red);
+	draw_text(x+COLUMN_HP+50,y+130+(i*12),string(_char.hp) + "/" + string(_char.hpMax));
+	
+	draw_set_color(c_white);
+	if (_char.mp < (_char.mpMax * 0.5)) draw_set_color(c_orange);
+	if (_char.mp <= 0) draw_set_color(c_red);
+	draw_text(x+COLUMN_MP+50,y+130+(i*12),string(_char.mp) + "/" + string(_char.mpMax));
+	
+	draw_set_color(c_white);
+}
 	
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
