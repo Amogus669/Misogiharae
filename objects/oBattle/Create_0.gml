@@ -5,6 +5,15 @@ turn = 0;
 unitTurnOrder = [];
 unitRenderOrder = [];
 
+turnCount = 0;
+roundCount = 0;
+battleWaitTimeFrames = 30;
+battleWaitTimeRemaining = 0;
+currentUser = noone;
+currentAction = -1;
+currentTargets = noone;
+
+
 //Make enemies
 for (var i = 0; i < array_length(enemies); i++)
 {
