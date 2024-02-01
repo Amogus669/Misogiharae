@@ -4,6 +4,7 @@
   "name": "project_rpg_base",
   "resources": [
     {"id":{"name":"fnOpenSansPX","path":"fonts/fnOpenSansPX/fnOpenSansPX.yy",},"order":0,},
+    {"id":{"name":"oBattleEffect","path":"objects/oBattleEffect/oBattleEffect.yy",},"order":4,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":3,},
     {"id":{"name":"sQuestyCast","path":"sprites/sQuestyCast/sQuestyCast.yy",},"order":17,},
     {"id":{"name":"sBat","path":"sprites/sBat/sBat.yy",},"order":28,},
