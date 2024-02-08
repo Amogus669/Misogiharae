@@ -15,11 +15,9 @@ global.actionLibrary =
 		func : function(_user, _targets)
 		{
 			var _damage = ceil(_user.strength + random_range(-_user.strength * 0.25,_user.strength *0.25));
-			with (_targets[0]) hp = max(0, hp - _damage);
+			BattleChangeHP(_targets[0], -_damage, 0);
 		}
-}
-
-
+	}
 }
 
 enum MODE

@@ -12,6 +12,7 @@
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},"order":4,},
     {"id":{"name":"oBattleUnitPC","path":"objects/oBattleUnitPC/oBattleUnitPC.yy",},"order":2,},
     {"id":{"name":"fnM5x7","path":"fonts/fnM5x7/fnM5x7.yy",},"order":1,},
+    {"id":{"name":"oBattleFloatingText","path":"objects/oBattleFloatingText/oBattleFloatingText.yy",},"order":5,},
     {"id":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},"order":1,},
     {"id":{"name":"sAttackSlash","path":"sprites/sAttackSlash/sAttackSlash.yy",},"order":20,},
     {"id":{"name":"sBg","path":"sprites/sBg/sBg.yy",},"order":1,},
