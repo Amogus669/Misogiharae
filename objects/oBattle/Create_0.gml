@@ -11,6 +11,7 @@ battleWaitTimeFrames = 30;
 battleWaitTimeRemaining = 0;
 currentUser = noone;
 currentAction = -1;
+
 currentTargets = noone;
 
 //Make enemies
@@ -100,7 +101,7 @@ function BattleStatePerformAction()
 				{
 					for (var i = 0; i < array_length(currentTargets); i++)
 					{
-						instance_create_depth(currentTargets[i].x,currentTargets[i].y,currentTargets[i].depth-1,oBattleEffect, {sprite_index : currentAction.efectSprite});
+						instance_create_depth(currentTargets[i].x,currentTargets[i].y,currentTargets[i].depth-1,oBattleEffect, {sprite_index : currentAction.effectSprite});
 					}
 				}
 				else //play it at 0,0
