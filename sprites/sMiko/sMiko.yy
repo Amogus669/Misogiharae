@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "BattleUnits",
-    "path": "folders/Sprites/BattleUnits.yy",
+    "name": "Party",
+    "path": "folders/Sprites/BattleUnits/Party.yy",
   },
 }

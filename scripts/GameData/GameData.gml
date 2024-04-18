@@ -64,7 +64,7 @@ global.enemies =
 		mp: 0,
 		mpMax: 0,
 		strength: 5,
-		sprites: { idle: sSlime, attack: sSlimeAttack},
+		sprites: { idle: sCentisoldier, attack: sSlimeAttack},
 		actions: [global.actionLibrary.attack],
 		xpValue : 15,
 		AIscript : function()
@@ -88,7 +88,7 @@ global.enemies =
 		mp: 0,
 		mpMax: 0,
 		strength: 4,
-		sprites: { idle: sBat, attack: sBatAttack},
+		sprites: { idle: sDemonWheel, attack: sBatAttack},
 		actions: [global.actionLibrary.attack],
 		xpValue : 18,
 		AIscript : function()
