@@ -6,6 +6,7 @@ turnCount = 0;
 roundCount = 0;
 battleWaitTimeFrames = 30;
 battleWaitTimeRemaining = 0;
+battleText = "";
 currentUser = noone;
 currentAction = -1;
 currentTargets = noone;
@@ -127,11 +128,13 @@ function BattleStateSelectAction()
 	}
 }
 
+//Start a unit action 
 function BeginAction(_user, _action, _targets)
 {
 	currentUser = _user;
 	currentAction = _action;
 	currentTargets = _targets;
+	battleText = string_ext(_action.description, [_user.name]);
 	if (!is_array(currentTargets)) currentTargets = [currentTargets];
 	battleWaitTimeRemaining = battleWaitTimeFrames;
 	with (_user)
@@ -201,7 +204,8 @@ function BattleStateVictoryCheck()
 
 function BattleStateTurnProgression()
 {
-	turnCount++;
+	battleText = ""; //reset battle text
+	turnCount++; //total turns
 	turn++;
 	//Loop turns
 	if (turn > array_length(unitTurnOrder) -1)
