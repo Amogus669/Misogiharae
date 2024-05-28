@@ -217,4 +217,3 @@ function BattleStateTurnProgression()
 }
 
 battleState = BattleStateSelectAction;
-

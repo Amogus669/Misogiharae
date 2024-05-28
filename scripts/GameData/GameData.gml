@@ -50,24 +50,24 @@ enum MODE
 global.party = 
 [
 	{
-		name: "Lulu",
+		name: "Diego",
 		hp: 89,
 		hpMax: 89,
 		mp: 10,
 		mpMax: 15,
 		strength: 6,
-		sprites : { idle: sLuluIdle, attack: sLuluAttack, defend: sLuluDefend, down: sLuluDown},
+		sprites : { idle: sKnight, attack: sLuluAttack, defend: sLuluDefend, down: sLuluDown},
 		actions : [global.actionLibrary.attack]
 	}
 	,
 	{
-		name: "Questy",
+		name: "Tooru",
 		hp: 18,
 		hpMax: 44,
 		mp: 20,
 		mpMax: 30,
 		strength: 4,
-		sprites : { idle: sQuestyIdle, attack: sQuestyCast, cast: sQuestyCast, down: sQuestyDown},
+		sprites : { idle: sMonk, attack: sQuestyCast, cast: sQuestyCast, down: sQuestyDown},
 		actions : [global.actionLibrary.attack, global.actionLibrary.ice]
 	}
 ]
@@ -77,7 +77,7 @@ global.enemies =
 {
 	slimeG: 
 	{
-		name: "Slime",
+		name: "Centipede",
 		hp: 30,
 		hpMax: 30,
 		mp: 0,
@@ -101,7 +101,7 @@ global.enemies =
 	,
 	bat: 
 	{
-		name: "Bat",
+		name: "Demonwheel",
 		hp: 15,
 		hpMax: 15,
 		mp: 0,
